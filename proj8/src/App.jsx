@@ -1,5 +1,6 @@
 import { useState } from "react";
-
+// Create a React component that displays a user's name and profile picture.for the given array Add
+// "Next" and "Previous" buttons
 function App(){
   let [img, setImg] = useState("https://static.vecteezy.com/system/resources/thumbnails/019/879/186/small/user-icon-on-transparent-background-free-png.png");
   let [name, SetName] = useState("User Name");

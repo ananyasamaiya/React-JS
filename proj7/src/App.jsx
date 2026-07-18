@@ -1,5 +1,6 @@
 import { useState } from "react";
-
+// this task is for toggleing two images when we click on one button images should change and when
+// we click on another button then also images of disired button come
 function App(){
   let [img, setImg] = useState("https://static.vecteezy.com/system/resources/thumbnails/019/879/186/small/user-icon-on-transparent-background-free-png.png");
   let [name, SetName] = useState("User Name");
