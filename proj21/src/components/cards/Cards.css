@@ -1,0 +1,19 @@
+#rec_box{
+    width: 90%;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 30px auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.rec{
+    width: 200px;
+    height: 250px;
+    padding: 10px;
+    box-shadow: 0 0 10px #444;
+    
+}

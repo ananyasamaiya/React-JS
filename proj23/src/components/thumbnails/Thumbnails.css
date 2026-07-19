@@ -1,0 +1,19 @@
+.thmnl{
+    width: 15%;
+    height: 100px;
+    /* border: 1px solid blue; */
+    text-align: center;
+    font-family: verdana;
+    cursor: pointer;
+}
+
+.thmnl img{
+    height: 100px;
+    width: 75%;
+    border-radius: 50px;
+}
+
+.thmnl:hover{
+    transform: scale(1.1);
+    transition: transform 330ms ease-in-out;
+}
