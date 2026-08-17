@@ -1,0 +1,28 @@
+.cat_box{
+    width: 90%;
+    margin: 10px auto;
+    /* box-shadow: 0px 0px 4px #444; */
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    font-family: verdana;
+}
+
+.cat_box div{
+    height: 100px;
+    /* border: 1px solid red; */
+    justify-self: center;
+    text-align: center
+}
+
+.cat_box img{
+    height: 100px;
+    width: 100px;
+    box-shadow: 0px 0px 4px #999;
+    border-radius: 50%;
+}
+
+.cat_box img:hover{
+    transform: scale(1.04);
+    transition: tranform 350ms ease-in-out;
+    cursor: pointer;
+}
