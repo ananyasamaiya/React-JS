@@ -1,0 +1,50 @@
+.nav_box {
+    width: 90%;
+    margin: 10px auto;
+    height: 80px;
+    box-shadow: 0px 0px 10px #444;
+    padding-left: 50px;
+    font-family: verdana;
+}
+
+.nav_box img {
+    height: 80px;
+    vertical-align: middle;
+}
+
+.nav_box ul, .nav_box li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav_box ul {
+    margin-left: 50px;
+}
+
+.nav_box li {
+    margin-right: 20px;
+}
+
+.nav_box a {
+    text-decoration: none;
+    color: green;
+    box-shadow: 0px 0px 5px green;
+    padding: 5px 12px;
+    font-weight: bold;
+}
+
+.nav_box li:hover {
+    transform: scale(1.08);
+    transition: transform 330ms ease-in-out;
+}
+
+.nav_box button{
+    font-size: 20px;
+    color: green;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid green;
+    background-color: rgb(125, 230, 125);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

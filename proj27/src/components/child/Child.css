@@ -1,0 +1,8 @@
+.chl_box{
+    width: 90%;
+    height: 380px;
+    margin: 10px auto;
+    box-shadow: 0px 0px 5px green;
+    border-radius: 8px;
+    padding: 10px;
+}

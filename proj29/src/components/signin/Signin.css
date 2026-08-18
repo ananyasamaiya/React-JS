@@ -1,0 +1,44 @@
+.signin_box{
+    width: 300px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 5px #999;
+    /* height: 300px; */
+    font-family: verdana;
+    padding: 10px 80px;
+    border-radius: 10px;
+}
+
+.signin_box h2{
+    color: blue;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.field_box{
+    /* border: 1px solid red; */
+    margin-bottom: 10px;
+}
+
+.label{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    color: green;
+}
+
+.field_box input{
+    font-size: 22px;
+    padding: 7px 12px;
+
+}
+
+.signin_box button{
+    font-size: 20px;
+    color: green;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid green;
+    background-color: rgb(125, 230, 125);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
